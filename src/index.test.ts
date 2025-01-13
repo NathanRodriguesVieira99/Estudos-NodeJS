@@ -1,5 +1,9 @@
+import Person from ".";
+
 describe(" testing all ", () => {
-  it("should sums ", () => {
-    expect(2 + 2).toBe(4);
+  it("should pass ", () => {
+    const person = new Person();
+
+    expect(person.sayMyName()).toBe("Nathan");
   });
 });

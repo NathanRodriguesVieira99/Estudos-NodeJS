@@ -2,6 +2,6 @@
   "src/**/*.ts": [
     "eslint --fix src/**/*.ts",
     "prettier --check src/**/*.ts",
-    ""
+    "npm run test:staged"
   ]
 }

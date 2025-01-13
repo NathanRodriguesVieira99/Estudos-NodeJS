@@ -9,7 +9,7 @@
     "prepare": "husky init",
     "test": "jest --passWithNoTests",
     "test:watch" : "jest --watch",
-    "test:staged": "test --findRelatedTests"
+    "test:staged": "jest --findRelatedTests"
   },
   "keywords": [],
   "author": "",
