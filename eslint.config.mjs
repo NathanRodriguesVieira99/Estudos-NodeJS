@@ -22,7 +22,13 @@ export default [
     },
     rules: {
       '@typescript-eslint/no-unused-vars': 'error',
-      'no-undef': 'off'
+      'no-undef': 'off',
+    },
+  },
+  {
+    files: ['**/*.js'],
+    rules: {
+      'no-undef': 'off',
     },
   },
 ];
