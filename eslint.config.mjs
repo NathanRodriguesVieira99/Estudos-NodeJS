@@ -14,7 +14,7 @@ export default [
         project: ['./tsconfig.json'],
       },
       globals: {
-        console: 'readonly',  
+        console: 'readonly',
       },
     },
     plugins: {
@@ -22,6 +22,7 @@ export default [
     },
     rules: {
       '@typescript-eslint/no-unused-vars': 'error',
+      'no-undef': 'off'
     },
   },
 ];

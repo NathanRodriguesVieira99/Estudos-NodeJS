@@ -6,21 +6,27 @@
   "type": "module",
   "scripts": {
     "start:dev": "nodemon --watch \"src\" --exec \"ts-node src/index.ts\" -e ts",
-    "prepare": "husky init"
+    "prepare": "husky init",
+    "test": "jest --passWithNoTests",
+    "test:watch" : "jest --watch",
+    "test:staged": "test --findRelatedTests"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.18.0",
+    "@types/jest": "^29.5.14",
     "@types/node": "^22.10.6",
     "eslint": "^9.18.0",
     "eslint-config-prettier": "^10.0.1",
     "globals": "^15.14.0",
     "husky": "^9.1.7",
+    "jest": "^29.7.0",
     "lint-staged": "^15.3.0",
     "nodemon": "^3.1.9",
     "prettier": "^3.4.2",
+    "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.20.0"
