@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start:dev": "nodemon --watch \"src\" --exec \"ts-node src/index.ts\" -e ts"
+    "start:dev": "nodemon --watch \"src\" --exec \"ts-node src/index.ts\" -e ts",
+    "prepare": "husky init"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,8 @@
     "eslint": "^9.18.0",
     "eslint-config-prettier": "^10.0.1",
     "globals": "^15.14.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
     "nodemon": "^3.1.9",
     "prettier": "^3.4.2",
     "ts-node": "^10.9.2",
