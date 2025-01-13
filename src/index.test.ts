@@ -1,5 +1,4 @@
 import Person from ".";
-
 describe(" testing all ", () => {
   it("should pass ", () => {
     const person = new Person();
