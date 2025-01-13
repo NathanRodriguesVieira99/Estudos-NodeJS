@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Comando para rodar os testes antes de enviar as alterações
+npm run test:push
