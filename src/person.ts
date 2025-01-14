@@ -1,3 +1,4 @@
+// comentário
 class Person {
   sayHello() {
     return "Hello World";
