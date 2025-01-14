@@ -31,4 +31,7 @@ export default [
       'no-undef': 'off',
     },
   },
+  {
+    "ignores": ["jest.config.ts"]
+  }
 ];
