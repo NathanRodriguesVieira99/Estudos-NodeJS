@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   roots: ["<rootDir>/src"],
   collectCoverageFrom: ["<rootDir>/src/**/*.ts"],
   coverageDirectory: "coverage",
@@ -9,4 +9,4 @@ module.exports = {
   moduleNameMapper: {
     "@/(.*)": "<rootDir>/src/$1",
   },
-}
+};
