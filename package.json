@@ -11,7 +11,7 @@
     "prepare": "husky init",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
-    "test:staged": "jest --findRelatedTests",
+    "test:staged": "jest --findRelatedTests --passWithNoTests",
     "test:push": "jest --coverage"
   },
   "keywords": [],
