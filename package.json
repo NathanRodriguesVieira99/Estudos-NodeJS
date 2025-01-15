@@ -9,7 +9,8 @@
     "start": "node  dist/index.js",
     "start:dev": "nodemon --watch src --exec ts-node -r tsconfig-paths/register src/index.ts -e ts",
     "prepare": "husky init",
-    "test": "jest --passWithNoTests",
+    "test": "jest  --passWithNoTests",
+    "test:watchAll": "jest --watchAll",
     "test:watch": "jest --watch",
     "test:staged": "jest --findRelatedTests --passWithNoTests",
     "test:push": "jest --coverage"
